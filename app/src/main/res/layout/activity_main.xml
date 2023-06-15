@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Reserva Hotel Huaytapallana"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+
+        ></TextView>
+
+    <ImageView
+        android:layout_width="700dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:src="@drawable/cap"
+        android:layout_marginHorizontal="95dp"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="222dp"
+        android:layout_height="213dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="175dp"
+        android:layout_marginStart="65dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <EditText
+        android:id="@+id/etimagenId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="65dp"
+        android:ems="10"
+        android:inputType="text"
+        />
+
+    <Button
+        android:id="@+id/getImagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="65dp"
+        android:layout_gravity="end"
+        android:text="Consulta"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/imghome"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@drawable/ic_home"
+            android:layout_marginRight="60dp"></ImageButton>
+        <ImageButton
+            android:id="@+id/imglist"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@drawable/ic_list"
+            android:layout_marginRight="60dp"></ImageButton>
+        <ImageButton
+            android:id="@+id/imgcard"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@drawable/ic_bed"></ImageButton>
+    </LinearLayout>
+
+</LinearLayout>
